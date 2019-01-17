@@ -1,0 +1,31 @@
+body {
+ letter-spacing: 0.75px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ height: 100vh;
+}
+
+div {
+ display: flex;
+ overflow-x: auto;
+ justify-content: space-between;
+ flex-direction: column;
+ width: 280px;
+ height: 400px;
+ box-shadow: 0 2px 15px #ccc;
+}
+
+input#input {
+ width: 98%;
+}
+
+input:focus {
+ outline: none;
+}
+
+#messages {
+ list-style-type: none;
+ margin: 10px;
+ padding: 0;
+}
