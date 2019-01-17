@@ -6,7 +6,6 @@ var userName = '';
 setUsername();
 
 form.addEventListener('submit', handleSubmit);
-setInterval(updateScroll,1000);
 
 socket.on('chat message', function(response) {
  const ul = document.getElementById('messages');
